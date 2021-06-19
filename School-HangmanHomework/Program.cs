@@ -32,7 +32,7 @@ namespace School_HangmanHomework
                 ShowInfoForUser(correctLetters, incorrectLetters, userGuessesLeft);
 
                 Console.WriteLine("Guess a letter or a word:");
-                string userInput = Console.ReadLine();
+                string userInput = Console.ReadLine().ToLower();
 
                 Console.WriteLine();
 
